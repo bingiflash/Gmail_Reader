@@ -1,4 +1,6 @@
 # Gmail_Reader
 Reads and displays unseen email's info from gmail
 
-To Do : Find a way to kill the process without having to go to Task manager(write a script)
+To Do : 
+- Find a way to kill the process without having to go to Task manager(write a script)
+- Add a mechanism to stop nootification after 1 minute (run another thread for timer)
