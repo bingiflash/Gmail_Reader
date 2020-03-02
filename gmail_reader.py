@@ -39,8 +39,10 @@ def main():
     mail.login(Email,
                App_password)  # App Password
     mail.select("inbox")
-    status, data = mail.search(None, 'unseen', 'OR', 'FROM',
-                               'bingivenkatesh9@gmail.com', 'FROM', 'nathreyas@sperodevices.com')
+    status, data = mail.search(None, 'unseen', 'OR', 'OR', 'FROM', 'nathreyas@sperodevices.com',  'FROM',
+                               'jgupta@sperodevices.com', 'OR', 'FROM', 'consult-mg@gstardust.com', 'FROM', 'mg@gstardust.com')
+
+    # print(data)
 
     ids = data[0]
     id_list = ids.split()
